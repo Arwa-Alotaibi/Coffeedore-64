@@ -77,14 +77,6 @@ public void neworder(){
 
         }
 }
-//NINJA BONUS:
-//Create a method that lets an admin add menu items manually,
-// using what you now know about getting user input.
-// public void addMenuItemByInput(){
-
-
-
-// }
 
 
 }
