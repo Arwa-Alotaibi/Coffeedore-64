@@ -58,17 +58,14 @@ public void neworder(){
 
     while(!itemNumber.equals("q")) {
         Item item = menu.get(i);
-
-
         ArrayList<Item> orderItems = order.getItems();
         orderItems.add(item);
 
         System.out.println("Please enter a menu item index or q to quit:");
         itemNumber = System.console().readLine();
-
-        System.out.println("Please enter a menu item index or q to quit:");
-        itemNumber = System.console().readLine();
     }
+        
+    
 
         System.out.println(order.getName()+"order details");
 
